@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Loomstate &mdash; Founder Agent-Ops Audit</title>
+<meta name="description" content="A measured Founder Agent-Ops Audit for technical founders running Cursor, Claude Code, or Codex. USD 750 flat. Solo-operator service.">
+<style>
+  :root {
+    --ink: #111;
+    --paper: #fafaf8;
+    --rule: #d8d6cf;
+    --muted: #5a5a55;
+    --accent: #8b5a3c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: ui-monospace, SFMono-Regular, Menlo, "Cascadia Mono", Consolas, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; }
+  header { padding-bottom: 32px; border-bottom: 1px solid var(--rule); margin-bottom: 32px; }
+  .brand { font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: 28px; line-height: 1.25; margin: 16px 0 8px; font-weight: 600; }
+  .tagline { color: var(--muted); margin: 0; }
+  section { margin: 36px 0; }
+  h2 { font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 36px; font-weight: 600; }
+  h3 { font-size: 16px; margin: 20px 0 8px; font-weight: 600; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 6px 0; }
+  p { margin: 12px 0; }
+  .price { font-size: 22px; font-weight: 600; }
+  .cta {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 8px;
+    font-size: 15px;
+  }
+  .cta:hover { background: var(--accent); }
+  .secondary { color: var(--muted); font-size: 14px; margin-top: 12px; }
+  a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: var(--ink); }
+  footer { border-top: 1px solid var(--rule); padding-top: 24px; margin-top: 64px; color: var(--muted); font-size: 13px; }
+  footer a { margin-right: 16px; }
+  code, .mono { font-family: inherit; background: rgba(0,0,0,0.04); padding: 1px 5px; border-radius: 2px; }
+  .note { color: var(--muted); font-size: 14px; font-style: italic; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">Loomstate</div>
+    <h1>Founder Agent-Ops Audit</h1>
+    <p class="tagline">Measurement before you change anything.</p>
+  </header>
+
+  <section>
+    <p>Agent setup feels fragile when the loop depends on memory, vibes, and manual checking instead of a repeatable operating system. Loomstate runs a one-week audit for technical founders running Cursor, Claude Code, or Codex inside real repos who want measurement before they commit to changes.</p>
+  </section>
+
+  <section>
+    <h2>What you get</h2>
+    <ul>
+      <li>A one-page reliability scorecard for your last 20 agent runs (success/fail, root cause where the loop broke, confidence band).</li>
+      <li>A checklist of the 5 most common failure patterns in your prompts, repo context, verification gaps, and handoffs.</li>
+      <li>A repo-specific operating checklist tuned for your Cursor, Claude Code, Codex, or mixed-agent setup.</li>
+      <li>A short action plan for the 3 highest-leverage fixes, ranked by effort vs. expected reliability gain.</li>
+      <li>Concrete artifacts (markdown files, prompt templates, checklists) that you keep regardless of outcome.</li>
+      <li>One week of post-engagement Slack or email questions.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What I need from you</h2>
+    <ul>
+      <li>Read access to the relevant repo, docs, and recent agent transcripts or prompts.</li>
+      <li>One 30-minute kickoff call.</li>
+      <li>Async answers within one business day when context is missing.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What this is NOT</h2>
+    <ul>
+      <li>Not a security audit.</li>
+      <li>Not a financial review.</li>
+      <li>Not SOC 2 prep.</li>
+      <li>Not a code refactor.</li>
+      <li>Not a promise of specific model performance, product outcomes, or a guaranteed reliability gain.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Timeline</h2>
+    <p>One week from kickoff.</p>
+  </section>
+
+  <section>
+    <h2>Investment</h2>
+    <p class="price">USD 750 flat</p>
+    <p>Stripe Payment Link delivered after the kickoff call. No subscriptions, no upsells, no retainer.</p>
+    <a href="mailto:loomstate.official@gmail.com?subject=Founder%20Agent-Ops%20Audit%20-%20repo%20intro" class="cta">Reply with your repo URL</a>
+    <p class="secondary">Or email <a href="mailto:loomstate.official@gmail.com">loomstate.official@gmail.com</a> with a one-paragraph description of your stack.</p>
+  </section>
+
+  <section>
+    <h2>Honest risks</h2>
+    <ul>
+      <li>Loomstate is a solo-operator service. Capacity is limited.</li>
+      <li>Output quality depends on repo state, logs, and access to real workflow evidence. If your repo and transcripts don't reflect your actual workflow (lots of off-platform decisions, undocumented context, prompts that live in your head), my recommendations will miss the real failure modes.</li>
+      <li>The deliverable is measurement plus a concrete action plan. It is not a guaranteed reliability gain. Acting on the plan is your call.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>About</h2>
+    <p>Loomstate is a solo-operator service. The audit reproduces the measurement discipline I run on my own agent-ops loop &mdash; 685+ measured rounds and counting on my internal stack &mdash; inside your repo. I do not subcontract; you work directly with the operator.</p>
+  </section>
+
+  <footer>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="mailto:loomstate.official@gmail.com">Contact</a>
+    <p class="secondary">&copy; 2026 Loomstate. All rights reserved.</p>
+  </footer>
+</main>
+</body>
+</html>
